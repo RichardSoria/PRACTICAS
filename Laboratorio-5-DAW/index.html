@@ -1,0 +1,26 @@
+<!-- Manipulación del DOM -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Manipulación del DOM</title>
+</head>
+<body>
+   <form id="form">
+      <h2>Cuestionario sobre países</h2>
+      <p>¿Cúal fue el primer país que adópto el dólar como moneda oficial?</p>
+      <textarea id="textarea"></textarea>
+      <br />
+      <button id="button" disabled>Enviar</button>
+      <p id="loading" style="display: none;">Cargando...</p>
+      <p id="error" style="display: none; color: red;"></p>
+   </form>
+   <h1 id="success" style="display: none;">¡Correcto!</h1>
+   <style>
+      *{box-sizing: border-box;}
+      body{font-family: sans-serif;margin: 20px; padding: 0;}
+   </style>
+<script src="index.js"></script>
+</body>
+</html>
